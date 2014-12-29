@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:id="@+id/container" >
+
+    <Button
+        android:id="@+id/btnMultiChoice"
+        style="@style/ButtonText"
+        android:background="@drawable/blue_button"
+        android:text="@string/button_text_multiple_choice" />
+
+    <Button
+        android:id="@+id/btnListen"
+        style="@style/ButtonText"
+        android:background="@drawable/blue_button"
+        android:text="@string/button_text_listen" />
+
+    <Button
+        android:id="@+id/btnSetup"
+        style="@style/ButtonText"
+        android:background="@drawable/blue_button"
+        android:text="Setup" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        style="@style/ButtonText"
+        android:background="@drawable/blue_button"
+        android:text="Help?" />
+
+</LinearLayout>

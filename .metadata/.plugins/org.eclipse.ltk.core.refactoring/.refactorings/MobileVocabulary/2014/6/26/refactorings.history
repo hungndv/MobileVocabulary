@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;MobileVocabulary&apos;&#x0D;&#x0A;- Original project: &apos;MobileVocabulary&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.example.mobilevocabulary.activity.MultiChoiceManagerActivity.java&#x0D;&#x0A;     activity_multi_choice_manager.xml&#x0D;&#x0A;     fragment_multi_choice_manager.xml&#x0D;&#x0A;     multi_choice_manager.xml" description="Delete elements" element1="res/layout/fragment_multi_choice_manager.xml" element2="res/layout/activity_multi_choice_manager.xml" element3="res/menu/multi_choice_manager.xml" element4="/src&lt;com.example.mobilevocabulary.activity{MultiChoiceManagerActivity.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1403707762202" subPackages="false" version="1.0"/>
+</session>

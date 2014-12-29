@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding" >
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnBack"
+        android:layout_below="@+id/sbTimeAmount"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnBack"
+        android:layout_alignBottom="@+id/btnBack"
+        android:layout_alignRight="@+id/sbTimeAmount"
+        android:layout_marginRight="30dp"
+        android:text="OK" />
+
+    <RadioGroup
+        android:id="@+id/rgSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RadioButton
+            android:id="@+id/radLearn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Learn (Answers on &amp; Timer off)" />
+
+        <RadioButton
+            android:id="@+id/radExam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exam (Answers off &amp; Timer on)" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rgSettings"
+        android:layout_below="@+id/rgSettings"
+        android:text="Timer: "
+        android:textAppearance="?android:attr/textAppearanceButton" />
+
+    <TextView
+        android:id="@+id/tvTimeAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Timer"
+        android:layout_alignBottom="@+id/Timer"
+        android:layout_toRightOf="@+id/Timer"
+        android:text="Exam must be checked"
+        android:textAppearance="?android:attr/textAppearanceButton" />
+
+    <SeekBar
+        android:id="@+id/sbTimeAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Timer"
+        android:layout_below="@+id/Timer"
+        android:max="180" />
+
+</RelativeLayout>

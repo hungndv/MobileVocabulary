@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Vocabulary</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_end">End</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_answer">Answer</string>
+    <string name="title_activity_topic_selection">Please start a topic</string>
+    <string name="title_activity_multiple_choice">Multiple Choice Activity</string>
+    <string name="title_activity_multiple_choice_swipe"></string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_learn_multiple_choice_swipe"></string>
+    <string name="button_text_multiple_choice">Multiple Choice</string>
+    <string name="button_text_listen">Listen</string>
+    <string name="button_ok">OK</string>
+    <string name="title_activity_multi_choice_manager"></string>
+    <string name="hello_world">Hello world!</string>
+	<string name="search_hint">search_hint</string>
+	<string name="menu_search">menu_search</string>
+
+</resources>
